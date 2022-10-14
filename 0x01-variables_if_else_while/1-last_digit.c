@@ -1,4 +1,5 @@
 #include <stdio.h>
+
 /**
  * main - print last digit of
  *Return: 0
