@@ -10,7 +10,8 @@ int main(void)
 
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
-	printf("%d Last digit of\n", n);
-
+	{
+		printf("%d Last digit of\n", n);
+	}
 	retutn (0)
 }
