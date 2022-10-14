@@ -19,11 +19,11 @@ int main(void)
 	}
 	else (n = 0)
 	{
-		 printf("%d and is 0\n", n)
-        }
+		printf("%d and 0\n", n);
+	}
 	else (n < 6)
 	{
-		 printf("%d and is less than 6 and not 0\n", n)
-	} 
+		printf("%d and is less than 6 and not 0\n", n);
+	}
  	 retutn (0)
 }
