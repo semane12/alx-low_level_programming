@@ -1,4 +1,3 @@
-#include <stdio.h>
 #include "main.h"
 
 /**
@@ -7,7 +6,7 @@
  * Return: value of the last digit
  */
 
-int print_last_digit(int n)
+int print_last_digit(int)
 {
 	int ld = n % 10;
 
