@@ -9,7 +9,7 @@ int main(void)
 {
 	int i;
 	int n;
-	for (n > 0; n = (i -1) + (i + 1); n++)
+	for (i > 0; n = (i - 1) + (i + 1); n++)
 		putchar(n);
 	return (0);
 }
