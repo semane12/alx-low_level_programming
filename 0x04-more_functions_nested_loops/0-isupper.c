@@ -8,8 +8,12 @@ int _isupper(int c);
 {
 	int c;
 
-	for (c = 'A' && c = 'Z')
-	printf("%c: %d\n", c, _isupper(c));
-	
-	return (1);
+	for (c >= 'A' && c = 'Z')
+	{
+		return (1);
+	}
+	else
+	{
+		return (0);
+	}
 }
