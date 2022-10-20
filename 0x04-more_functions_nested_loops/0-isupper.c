@@ -2,12 +2,14 @@
 
 /**
  * _isupper(int c) - check for uppercase character
- * Return: 0
+ * Return: 1
  */
 int _isupper(int c);
 {
 	int c;
-	for (c = 'A' && c <= 'Z')
-		putchar(c);
-	return (0);
+
+	for (c = 'A' && c = 'Z')
+	printf("%c: %d\n", c, _isupper(c));
+	
+	return (1);
 }
