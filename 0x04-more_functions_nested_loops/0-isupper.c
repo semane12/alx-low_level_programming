@@ -2,12 +2,11 @@
 
 /**
  * _isupper(int c) - check for uppercase character
+ * @c: variable text
  * Return: 1
  */
-int _isupper(int c);
+int _isupper(int c)
 {
-	int c;
-
 	for (c >= 'A' && c = 'Z')
 	{
 		return (1);
