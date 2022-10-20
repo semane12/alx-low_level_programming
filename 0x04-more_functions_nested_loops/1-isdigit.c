@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * _isdigit - check for digit (0 to 9)
+ * _isdigit - check for the char is digia
  * Return: 1 if c is digit, 0 otherwise
  */
 int _isdigit(int c)
