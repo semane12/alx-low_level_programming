@@ -1,10 +1,10 @@
 #include "main.h"
 
 /**
- *  * leet - encodes a string in to 1337
- *   * @n: input
- *    * Return: the value of n
- *     */
+* leet - encodes a string in to 1337
+* @n: input
+* Return: the value of n
+*/
 char *leet(char *n)
 {
 	int i, j;
