@@ -2,7 +2,7 @@
 
 /**
  * *_strcat - concatenate two strings
- * @swat: copy to
+ * @dest: copy to
  * @src: copy from
  * Return: pointer to dest
  */
