@@ -1,10 +1,10 @@
 #include "main.h"
 #include <stdlib.h>
 /**
- *  * _strlen - count array
- *   * @s: array of element
- *    * Return: i
- *     */
+ * _strlen - count array
+ * @s: array of element
+ * Return: i
+ */
 
 int _strlen(char *s)
 {
@@ -18,6 +18,7 @@ int _strlen(char *s)
 
 	return (i);
 }
+
 /**
  * str_concat - back a poiter to array
  * @s1: array one
