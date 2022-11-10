@@ -2,7 +2,7 @@
 #include <unistd.h>
 
 /**
- * *string_nconcat - concatenate two strings
+ * string_nconcat - concatenate two strings
  * @s1: first string
  * @s2: second string
  * @n: index
@@ -31,22 +31,22 @@ char *string_nconcat(char *s1, char *s2, unsigned int n)
 	}
 
 	if (n > size2)
-		n = size2;
+	n = size2;
 	p = malloc((size1 + n + 1) * sizeof(char));
 	
 	if (p == NULL)
 	       return (0);
-
-for (i = 0; i < size1; i++)
-{
-p[i] = s1[i];
-}
-
-for (; i < (size1 +n); i++)
-{
-	p[i] = s2[i - size1];
-}
-p[i] = '\0';
-
-return (p);
+	
+	for (i = 0; i < size1; i++)
+	{
+		p[i] = s1[i];
+	}
+	
+	for (; i < (size1 +n); i++)
+	{
+		p[i] = s2[i - size1];
+	}
+	p[i] = '\0';
+	
+	return (p);
 }
