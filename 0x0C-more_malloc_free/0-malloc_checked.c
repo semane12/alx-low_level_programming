@@ -1,5 +1,5 @@
 #include "main.h"
-#include <unistd.h>
+#include <stdlib.h>
 
 /**
  * *malloc_checked - array for prints a string
