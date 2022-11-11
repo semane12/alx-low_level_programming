@@ -1,5 +1,5 @@
 #include "main.h"
-
+#include <stdlib>
 /**
  * array_range - creates an array of integer
  * @min: minimum
