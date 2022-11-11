@@ -2,16 +2,17 @@
 #include <stdlib.h>
 
 /**
- * *main - multiplies two positive number
- * *@argc: n arguments
- * *@argv: args
- * *Return: int
- * */
+ * main - multiplies two positive number
+ * @argc: n arguments
+ * @argv: args
+ * Return: int
+ */
 
 int main(int argc, char *argv[])
 {
 	unsigned long mul;
 	int i, j;
+	
 	if (argc != 3)
 	{
 		printf("Error\n");
@@ -28,7 +29,7 @@ int main(int argc, char *argv[])
 			}
 		}
 	}
-	mul = atol(argv[1]) *atol(argv[2]);
+	mul = atol(argv[1]) * atol(argv[2]);
 	printf("%lu\n", mul);
 	return (0);
 }
