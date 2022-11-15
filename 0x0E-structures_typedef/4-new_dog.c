@@ -22,12 +22,13 @@ int _strlen(char *str)
 }
 
 /**
- * _strcopy - copies a string pointed to by str including he terminating null, to a buffer poiter
+ * _strcopy - copies a string poit.d by str,incl.the termnaing null to a buffer
  * @dest: the buffer storing the string copy
  * @src: the source string
  *
  * Return: the pointer to dest
  */
+
 char *_strcopy(char *dest, char *src)
 {
 	int index = 0;
@@ -51,6 +52,7 @@ char *_strcopy(char *dest, char *src)
 dog_t *new_dog(char *name, float age, char *owner)
 {
 	dog_t *doggo;
+
 	if (name == NULL || age < 0 || owner == NULL)
 		return (NULL);
 
