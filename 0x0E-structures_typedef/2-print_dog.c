@@ -3,9 +3,9 @@
 #include <stdlib.h>
 
 /**
- * * print_dog - prints a struct dog
- * *@d: the struct dog to be print
- * */
+* print_dog - prints a struct dog
+*@d: the struct dog to be print
+*/
 void print_dog(struct dog *d)
 {
 	if (d == NULL)
