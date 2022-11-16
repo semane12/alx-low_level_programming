@@ -27,7 +27,7 @@ int main(int argc, char *argv[])
 	if (!func)
 	{
 		printf("Error\n");
-		exit(98);
+		exit(99);
 	}
 
 	o = *argv[2];
@@ -39,7 +39,7 @@ int main(int argc, char *argv[])
 	}
 	result = func(arg1, arg2);
 
-	printf("%D\n", result);
+	printf("%d\n", result);
 
 	return (0);
 }
