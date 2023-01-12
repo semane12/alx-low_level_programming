@@ -1,4 +1,6 @@
 #include "main.h"
+#include <stdio.h>
+
 /**
   *helperFunction - returns 0 or 1.
   *@num: number being checked.

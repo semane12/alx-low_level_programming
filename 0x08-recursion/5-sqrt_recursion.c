@@ -1,4 +1,6 @@
 #include "main.h"
+#include <stdio.h>
+
 /**
   *helperFunction - checks if sqrt of number exists
   *@num: number.
