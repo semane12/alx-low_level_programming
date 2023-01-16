@@ -2,11 +2,10 @@
 #include <string.h>
 int rand()
 {
-static int ct = -1;
-ct++;
-if (ct == 0)	
+static int ct = -1; ct++;
+if (ct == 0)
 return 8;
-if (ct == 1)	
+if (ct == 1)
 return 8;
 if (ct == 2)
 return 7;
