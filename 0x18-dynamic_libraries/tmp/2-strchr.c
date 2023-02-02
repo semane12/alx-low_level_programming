@@ -2,11 +2,11 @@
 #include<stddef.h>
 
 /**
- * * _strchr - finds a character in a string
- * * @s: pointer to the string
- * * @c: the character to find
- * * Return: pointer to c in s or NULL
- * */
+ * _strchr - finds a character in a string
+ * @s: pointer to the string
+ * @c: the character to find
+ * Return: pointer to c in s or NULL
+ */
 char *_strchr(char *s, char c)
 {
 	unsigned int i;

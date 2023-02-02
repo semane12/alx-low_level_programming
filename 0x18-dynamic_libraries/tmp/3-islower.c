@@ -1,14 +1,14 @@
 #include "main.h"
 
 /**
- * _isupper - checks if a character is an upper case letter
+ * _islower - checks if a character is lower case
  * @c: the character to check
  * Return: 1 if is lower 0 otherwise;
  */
 
-int _isupper(int c)
+int _islower(int c)
 {
-	if (c < 'A' || c > 'Z')
+	if (c < 'a' || c > 'z')
 		return (0);
 	else
 		return (1);
